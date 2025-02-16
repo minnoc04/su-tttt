@@ -36,7 +36,7 @@ def confess_love():
 
     messages = [random.choice(opening), random.choice(teasing), random.choice(suspense), random.choice(climax)]
 
-    st.title("💘 Lời tỏ tình từ Toy 💘")
+    st.title("💘 1 chút tên tên trong ngày 💘")
     for line in messages:
         st.write(line)
 
